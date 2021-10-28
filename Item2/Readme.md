@@ -2,7 +2,6 @@
 
 - 매개변수가 많아질 가능성이 높을 수록 Builder Pattern 을 활용하
 
-'''
     
     abstract static class Builder<T extends Builder<T>> {
         EnumSet<Topping> toppings = EnumSet.noneOf(Topping.class);
