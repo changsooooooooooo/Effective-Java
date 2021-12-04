@@ -4,6 +4,5 @@ public class Main {
         FinalClass fc2 = new FinalClass(4);
         System.out.println(fc.getter());
         System.out.println(fc2.getter());
-
     }
 }
